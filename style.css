@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html,main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+    width: 100vw;
+}
+
+#telaJogo{
+    filter: blur(2px);
+}
+
+#menu {
+    position: absolute;
+    height: 50%;
+    width: 60%;
+
+    display: grid;
+    grid-template-rows: repeat(3,2fr) 1fr;
+
+    border-radius: 10px;
+    border: none;
+
+
+    background-color: rgba(255, 255, 255, 0.838);
+    box-shadow: 0 0 20px 2px rgba(106, 105, 105, 0.523);
+}
+
+#titulo{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnMudar{
+    margin-left: 15px;
+}
+
+#pontos{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#jogar{
+    text-align: center;
+}
+
+#btnJogar{
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+}
+
+#mudarNome{
+    display: none;
+}
